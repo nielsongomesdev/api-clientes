@@ -12,6 +12,23 @@ npm start
 
 Servidor: `http://localhost:3000`
 
+## Estrutura do Projeto
+
+```
+api-clientes/
+├── src/
+│   ├── controllers/
+│   ├── routes/
+│   │   └── clienteRoutes.js
+│   └── index.js
+├── prisma/
+│   ├── schema.prisma
+│   ├── dev.db
+│   └── migrations/
+├── package.json
+└── README.md
+```
+
 ## Endpoints
 
 **POST /clientes** - Cadastra cliente
